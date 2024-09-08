@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "football-predictions-7f30c",
+    "private_key_id": "f408ad3fd60cef060f1a3e1e46847e123ca36892",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcUZ8KYRhBG3B1\nM7oBjBimc1JFfiZiuQ8LxQL3DPek9z2gvk0efV+RYhSBtzmnPFhdv5Yod+Wfkwy1\n+lVLoUMEjFjtWDYowj346KaFbwdYwlwf36jzwEM8os803ilJDW9jwl7qhBJD5s0A\nDoGMebXUj5KoGUPudwR7nC7AGzQFpPX1dCIZ+kATOItpAdqTv4+Jg9pRtChcqCHT\nphBZToEnMSWW/wK4sEt2dC8jRIQlhgAox08wNbXBDk2LHSu6mfC9Fst2TGqgxqHW\nnR3CeONTCQDfXPfXc9tzsd2V1mddV6IMkdUv64mcJuagUEWZEU0gef7ThAO8RZbW\nesc3K2HzAgMBAAECggEAQTB3dgs/sXgMgOlSxsVsv8eMltpaQkjOjmV3WKFCH1I2\nrnrQd86R+gMC3VTZHsYowWiAZi3/yAUrNCdDmLK5ET3zzBqXP90lmCJCr2WoT1eH\nCblUlPcVDfqAg/yeS6rJhEONcSet/eBrVPJ125phtmja9JkxM/yMW4TdgmMqM+bM\nS1B42c+y6nd3tFaZmzXMOdicIrIkQK/mAEzHRz/YY3YWvWFgHIXZ/BRg0ris+IVC\n4dZ9uKSqZCgY+BeTDe48fKPjXZy+qQTbYdtn2pDGE0KBmGBhlJBctZRM2hp0a/3l\nMwmW4744N6xP4Tkxnuyv1ME9RN65WXOfU1UmgG1qlQKBgQD7G6xxCcUuLgKZE3V9\ndCPkAHxzfKGCAfClDk8oJut131SNHXkFTGpyqyXZxR+11EKns5Enaj2HI+Gl66sD\nUKqOwAo5H6JOYjdCDl68B+ZsEOmrUDDCfry6gaAcH/rH5lpAMr2e3CusdXrxyCru\nnpD+QubnNepkZT8Nu66q92dnRQKBgQDgnGU5kkNHSzwVSBJtZ1POwxJ6ZlVq+26I\nU4fnaTSFBAnZJmkruqbObNfjszwu++eYZGahjo6WkPF4Vq2EZyVMp/4RzPF89M1Z\nxBnlbB6c4fDM3u5LDQEsVuI7CtdYYZQ/j3rgpoyA2mKxb6kMVbNoh8NKi9L7EcG8\n8QwgnHf71wKBgQDvmR84GI95mdNGxodztg7M7h3RgBkHWNyKUZX8BO7k4LznjTi9\ncoWbdmy+VtYEBE25gKA/EKM2wGj9jVn25tBnNxxKF0IiMprxP47rMUqO0LB1kyWD\nX7Sq7Sadz3HVrZlt6jx+SSyu+MXf0BQO7WQCCEoUUaCePPEmJG/sl/alVQKBgBl7\nRLSaVk2hSGi1q3mD7msXkGIYd/pSGgEXUOS897tbcO6Uv/u5CjGDAZ8Qd3RxGZ4d\nTdNoQ97rBKn9U2Qg+4dNy7IjSQY/E4jqiXGQqYxsyY/Efs4+5HIuTS4blcCuGU54\nrZ0M6AW6QNYWb9w5YMgsFsi/Qik/o3YW9qRAfBAzAoGBAL6SsdZhaIRHRk30IwHy\noAgYUHsh8nHlsKHsSD2vOaFWDbzIh6qXwstr+wxc3UpRe1zrR+UIUgK2LVHUfrOn\nH5smPVpY2kHvIvPiAvcdR6qFYWHxZIW2pGefUwQODE9/u72+KXc3H8Gst8YdkFl4\n+bneiobQCV1mZE8TBv01Mx2Q\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-aqghi@football-predictions-7f30c.iam.gserviceaccount.com",
+    "client_id": "107744424452511893640",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-aqghi%40football-predictions-7f30c.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
