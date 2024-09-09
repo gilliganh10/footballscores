@@ -88,4 +88,5 @@ ehthumbs.db
 Desktop.ini
 
 # Exclude specific files and directories
-auth/firebase_admin_sdk.json
+/auth/firebase_admin_sdk.json
+
