@@ -7,6 +7,7 @@ CORS(app)  # This will enable CORS for all routes
 
 # Import and register the routes from the api folder
 from api.test import testing
+from api.cards import get_random_fixtures
 
 @app.route('/')
 def home():
