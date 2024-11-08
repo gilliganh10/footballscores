@@ -9,6 +9,7 @@ import ProgressPage from './pages/ProgressPage';
 import CardsPage from './pages/CardsPage';
 import ProtectedRoute from './components/ProtectedRoute';
 import TablePage from './pages/TablePage';
+import TestPage from './pages/TestPage';
 import { ParentProvider } from './providers/ParentProvider';
 
 import { app, analytics } from './firebase';
@@ -48,6 +49,11 @@ function App() {
                 <ProtectedRoute>
                   <TablePage />
                 </ProtectedRoute>
+              } />
+              <Route path="/test" element={
+                <ProtectedRoute>
+                  <TestPage/>
+                  </ProtectedRoute>
               } />
             </Routes>
           </main>

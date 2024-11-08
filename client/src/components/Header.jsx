@@ -23,7 +23,8 @@ function Header() {
         { label: 'Home', path: '/' },
         { label: 'About', path: '/about' },
         { label: 'Table', path: '/table' },
-        { label: 'Cards', path: '/cards' }
+        { label: 'Cards', path: '/cards' },
+        { label: 'Test', path: '/test'}
     ];
 
     const handleNavigation = (path) => {
