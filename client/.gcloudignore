@@ -1,0 +1,22 @@
+# client/.gcloudignore
+
+# Node-specific
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Build-related (if using a build system)
+build/
+dist/
+coverage/
+
+# Git and other environment files
+.git/
+.gitignore
+.env
+
+# Ignore logs and caches
+*.log
+.cache/

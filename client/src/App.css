@@ -4,7 +4,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Change from max-height and min-height: 100dvh to height: 100vh */
+  height: 100dvh; /* Change from max-height and min-height: 100dvh to height: 100vh */
 }
 
 

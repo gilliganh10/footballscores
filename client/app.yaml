@@ -1,0 +1,7 @@
+# client/app.yaml
+runtime: nodejs20  # or nodejs18 / nodejs22, depending on compatibility with your project
+
+# Optional environment variables and network settings
+env_variables:
+  NODE_ENV: production
+instance_class: F2

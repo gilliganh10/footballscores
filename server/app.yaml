@@ -1,0 +1,9 @@
+# server/app.yaml
+runtime: python310
+entrypoint: waitress-serve --port=$PORT app:app
+service: server
+
+env_variables:
+  FLASK_ENV: production
+
+instance_class: F2
