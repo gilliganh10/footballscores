@@ -4,4 +4,5 @@ runtime: nodejs20  # or nodejs18 / nodejs22, depending on compatibility with you
 # Optional environment variables and network settings
 env_variables:
   NODE_ENV: production
+  REACT_APP_API_BASE_URL: "https://football-predictions-435014.nw.r.appspot.com"
 instance_class: F2
