@@ -3,8 +3,9 @@ import data from "./Data";
 import "./Fixtures.css";
 
 const Fixtures = ({ round, title }) => {
-    const fixtures = data;
-    const filteredFixtures = fixtures.filter(
+    const allMatches = Object.values(data[0]).flat();
+    
+    const filteredFixtures = allMatches.filter(
         (match) => match["Round Number"] === round
     );
 

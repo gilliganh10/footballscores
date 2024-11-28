@@ -10,7 +10,7 @@ function TestPage() {
             <h1>Test Page</h1>
             <div className="fixtures-container">
                 <Fixtures round={11} title="Next Game Week" />
-                <TestTable/>
+        
                 <Results />
             </div>
         </div>
