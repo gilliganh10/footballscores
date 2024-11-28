@@ -3,7 +3,7 @@ import { DataGrid } from '@mui/x-data-grid';
 
 const Table = ({ rows, columns, pageSize = 10, ...props }) => {
   return (
-    <div style={{ height: 400}}>
+    <div style={{ }}>
       <DataGrid
         rows={rows}
         columns={columns}

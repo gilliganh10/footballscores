@@ -35,12 +35,20 @@ const TestTable = () => {
   ];
 
   return (
-    <Box sx={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', my: 4 }}>
-      <Typography variant="h5" component="h2" gutterBottom>
-        Test League Table
+    <Box sx={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <Typography variant="h6" component="h2" gutterBottom>
+        League Table
       </Typography>
       <Box sx={{ width: '100%', maxWidth: 900 }}>
-        <Table rows={rows} columns={columns} pageSize={20} />
+        <Table 
+            rows={rows} 
+            columns={columns} 
+            pageSize={20}
+            rowsPerPageOptions={[20]}
+            disableSelectionOnClick
+            autoHeight
+            hideFooter
+        />
       </Box>
     </Box>
   );

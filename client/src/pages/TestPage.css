@@ -1,9 +1,18 @@
 .test-page {
     padding: 20px;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .fixtures-container {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 } 

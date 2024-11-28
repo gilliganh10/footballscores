@@ -9,16 +9,6 @@ const Fixtures = ({ round, title }) => {
         (match) => match["Round Number"] === round
     );
 
-    const formatDate = (dateString) => {
-        const date = new Date(dateString);
-        return date.toLocaleDateString('en-GB', {
-            weekday: 'long',
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
-    };
-
     const formatTime = (timeString) => {
         const [hours, minutes] = timeString.split(':');
         return `${hours}:${minutes}`;
@@ -31,20 +21,11 @@ const Fixtures = ({ round, title }) => {
                 <div className="fixtures-grid">
                     {filteredFixtures.map((match) => (
                         <div key={match["Match Number"]} className="fixture-card">
-                            <div className="fixture-date">
-                                {formatDate(match["Date"])}
-                            </div>
-                            <div className="fixture-teams">
-                                <span className="home-team">{match["Home Team"]}</span>
-                                <span className="vs">vs</span>
-                                <span className="away-team">{match["Away Team"]}</span>
-                            </div>
-                            <div className="fixture-result">
-                                {match["Result"] || "TBD"}
-                            </div>
-                            <div className="fixture-time">
-                                {formatTime(match["Time"])}
-                            </div>
+                            <span className="home-team">{match["Home Team"]}</span>
+                            <span className="score-time">
+                                {match["Result"] ? match["Result"] : formatTime(match["Time"])}
+                            </span>
+                            <span className="away-team">{match["Away Team"]}</span>
                         </div>
                     ))}
                 </div>

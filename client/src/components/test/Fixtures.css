@@ -1,87 +1,55 @@
 .fixtures {
-    padding: 20px;
-    max-width: 1200px;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 .fixtures h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: #333;
+    font-size: 1.2rem;
 }
 
 .fixtures-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .fixture-card {
     background: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
-}
-
-.fixture-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.fixture-date {
-    font-size: 0.9rem;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-.fixture-teams {
-    display: flex;
-    justify-content: space-between;
+    border-radius: 4px;
+    padding: 8px 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    margin: 15px 0;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
-.home-team, .away-team {
-    flex: 1;
+    gap: 16px;
 }
 
 .home-team {
     text-align: right;
-    padding-right: 10px;
+    font-size: 0.9rem;
 }
 
 .away-team {
     text-align: left;
-    padding-left: 10px;
-}
-
-.vs {
-    color: #888;
-    padding: 0 10px;
     font-size: 0.9rem;
 }
 
-.fixture-result {
-    text-align: center;
-    font-size: 1.2rem;
+.score-time {
     font-weight: bold;
-    color: #444;
-    margin: 10px 0;
-}
-
-.fixture-time {
-    text-align: center;
-    color: #666;
     font-size: 0.9rem;
+    color: #444;
+    min-width: 60px;
+    text-align: center;
 }
 
 .no-matches {
     text-align: center;
     color: #666;
-    padding: 20px;
+    padding: 10px;
     font-style: italic;
 } 
