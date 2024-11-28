@@ -1,15 +1,16 @@
 import React from "react";
-import CurrentFixtures from "../components/test/Currentfixtures";
+import Fixtures from "../components/test/Fixtures";
 import Results from "../components/test/Results";
+import "./TestPage.css";
 
 function TestPage() {
-
     return (
-        <div classname="TestPage">
+        <div className="test-page">
             <h1>Test Page</h1>
-            <CurrentFixtures/>
-            <Results/>
-        
+            <div className="fixtures-container">
+                <Fixtures round={11} title="Next Game Week" />
+                <Results />
+            </div>
         </div>
     );
 }
