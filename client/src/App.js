@@ -59,7 +59,6 @@ function App() {
               <Route path="/fixtures" element={<FixturesPage />} />
             </Routes>
           </main>
-          <Footer />
         </div>
       </Router>
     </ParentProvider>

@@ -20,11 +20,9 @@ function Header() {
     };
 
     const pageLinks = [
-        { label: 'Home', path: '/' },
-        { label: 'About', path: '/about' },
         { label: 'Table', path: '/table' },
-        { label: 'Cards', path: '/cards' },
-        { label: 'Test', path: '/test'}
+        { label: 'Test', path: '/test'},
+        { label: 'Fixtures', path: '/fixtures'}
     ];
 
     const handleNavigation = (path) => {
