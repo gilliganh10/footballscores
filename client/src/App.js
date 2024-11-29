@@ -11,6 +11,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import TablePage from './pages/TablePage';
 import TestPage from './pages/TestPage';
 import { ParentProvider } from './providers/ParentProvider';
+import FixturesPage from "./pages/FixturesPage";
 
 import { app, analytics } from './firebase';
 import './App.css';
@@ -55,6 +56,7 @@ function App() {
                   <TestPage/>
                   </ProtectedRoute>
               } />
+              <Route path="/fixtures" element={<FixturesPage />} />
             </Routes>
           </main>
           <Footer />

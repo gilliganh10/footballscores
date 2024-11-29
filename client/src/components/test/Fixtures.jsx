@@ -5,8 +5,23 @@ import "./Fixtures.css";
 const Fixtures = ({ round, title }) => {
     const allMatches = Object.values(data[0]).flat();
     
+    const getNextGameweek = () => {
+        const today = new Date();
+        const sortedFixtures = [...allMatches].sort((a, b) => {
+            return new Date(a.Date) - new Date(b.Date);
+        });
+
+        const nextMatch = sortedFixtures.find(match => 
+            new Date(match.Date) > today && match.Result === null
+        );
+
+        return nextMatch ? nextMatch["Round Number"] : null;
+    };
+
+    const displayRound = round || getNextGameweek();
+    
     const filteredFixtures = allMatches.filter(
-        (match) => match["Round Number"] === round
+        (match) => match["Round Number"] === displayRound
     );
 
     const formatTime = (timeString) => {
@@ -16,7 +31,7 @@ const Fixtures = ({ round, title }) => {
 
     return (
         <div className="fixtures">
-            <h2>{title}</h2>
+            <h2>{title || `Round ${displayRound}`}</h2>
             {filteredFixtures.length > 0 ? (
                 <div className="fixtures-grid">
                     {filteredFixtures.map((match) => (
