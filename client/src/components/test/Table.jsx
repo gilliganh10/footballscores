@@ -10,15 +10,15 @@ const TestTable = () => {
   const rows = data.map((team, index) => ({
     id: index + 1, // DataGrid requires an `id` field
     position: team.Position,
-    team: team.Team,
-    played: team.p_total,
-    won: team.w_total,
-    drawn: team.d_total,
-    lost: team.l_total,
-    goalsFor: team.f_total,
-    goalsAgainst: team.a_total,
-    goalDifference: team.gd_total,
-    points: team.pts_total,
+    team: team.Club,
+    played: team.Played,
+    won: team.Won,
+    drawn: team.Drawn,
+    lost: team.Lost,
+    goalsFor: team.GF,
+    goalsAgainst: team.GA,
+    goalDifference: team.GD,
+    points: team.Points,
   }));
 
   const columns = [

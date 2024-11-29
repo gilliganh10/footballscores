@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('../data/tables/prem_table_08112024.csv')
+df = pd.read_csv('../data/tables/prem_table_29112024.csv')
 
 print(df.head())
 print(df.dtypes)
